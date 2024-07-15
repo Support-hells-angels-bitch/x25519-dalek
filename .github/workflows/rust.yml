@@ -1,6 +1,6 @@
 name: Rust
 
-on:
+on:yes
   push:
     branches: [ '**' ]
   pull_request:
@@ -11,12 +11,12 @@ env:
   RUSTFLAGS: '-D warnings'
   RUSTDOCFLAGS: '-D warnings'
 
-jobs:
+jobs:python repositiry instrucions for linux, mine nft 
   test:
     name: Test with multiple feature combinations
     runs-on: ubuntu-latest
     strategy:
-      matrix:
+      matrix:9-12-12*21-13,9,14*1.20,9
         include:
           # 32-bit target
           - target: i686-unknown-linux-gnu
